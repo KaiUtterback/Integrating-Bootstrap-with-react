@@ -1,0 +1,38 @@
+/* NotFound.css */
+
+.notfound-container {
+    background: linear-gradient(135deg, #f8d7da, #f5c6cb);
+    padding: 50px;
+    border-radius: 10px;
+    border: 1px solid #f5c2c7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .notfound-image {
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    max-height: 300px;
+    object-fit: cover;
+  }
+  
+  .display-4 {
+    font-weight: bold;
+  }
+  
+  .lead {
+    font-size: 1.25rem;
+  }
+  
+  .go-home-button {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .go-home-button:hover {
+    background-color: #c82333;
+    transform: translateY(-2px);
+  }
+  
